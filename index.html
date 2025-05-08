@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> World Weather App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+        <button>
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+        </button>
+    </div>
+
+    <div class="error">
+        <p>Invalid City Name</p>
+    </div>
+
+    <div class="weather">
+        <div class="first-i"><i class="fa-solid fa-cloud-rain"></i></div>
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+       
+        <div class="details">
+            <div class="col">
+                <div class="second-i"> <i class="fas fa-tint"></i></div>
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            
+            <div class="col">
+               <div class="third-i"><i class="fa-solid fa-wind"></i> </div>
+                <div>
+                    <p class="wind">15 Km/h</p>
+                    <p class="wind-p">Wind Speed</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
